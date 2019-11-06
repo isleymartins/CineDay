@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CINE DAY</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <div class="cabecalho">
+        <h1 class="titulo">CINE DAY</h1>
+    </div>
+
+    <div class="pos-ft">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <h5 class="text-white h4">Sobre nós</h5>
+                <span class="text-muted">Seja bem vindo ao Cine Day! </br> 
+                    Somos um projeto de desenvolvimento de um site com algumas sugestões de filmes para você, faça bom proveito! </span>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+
+
+    <div class="card-deck">
+        <div class="card" style="width: 40%;">
+            <img src="img/bobesponja.jpg" class="card-img-top" alt="Bob Esponja" style="width: 90%;">
+            <div class="card-body">
+                <h3 class="card-title">Bob Esponja O filme </h3>
+                <div class="card-header">
+                    <h5>Sinopse:</h5>
+                </div>
+                <p class="card-text"><i>Bob Esponja e seu amigo Patrick, uma estrela do mar, embarcam em uma missão para
+                        limpar o nome do Sr. Sirigueijo, o proprietário do restaurante Siri Cascudo, que foi acusado de
+                        roubar a coroa do rei Netuno. Saindo dos limites familiares, Bob Esponja e Patrick aventuram-se
+                        para procurar a coroa de Netuno, mas encontrarão vários obstáculos no caminho.</i></p>
+                <div class="card-footer text-muted">
+                    <button type="button" class="btn btn-danger" onclick="Bobe()">Trailer</button>
+                    <button type="button" title="Bob Esponja: O filme" class="btn btn-outline-danger " data-toggle="popover"
+                        data-trigger="hover" data-placement="auto" data-content="Data de lançamento: 24 de dezembro de 2004 (Brasil) - Direção: Stephen Hillenburg, Mark Osborne - Bilheteria: 140,2 milhões USD - Música composta por: Gregor Narholz, Steve Belfer - Produção: Stephen Hillenburg, Julia Pistor, Albie Hecht
+                            ">Mais informações </a>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 40%;">
+            <img src="img/fugadasgalinhas.jpg" class="card-img-top" alt="Fuga das galinhas" style="width: 90%;">
+            <div class="card-body">
+                <h3 class="card-title">A fuga das Galinhas </h3>
+                <div class="card-header">
+                    <h5>Sinopse:</h5>
+                </div>
+                <p class="card-text"><i> No galinheiro de uma fazenda inglesa dos anos 1950, galinhas cumprem sua função
+                        e vivem pacatamente sonhando com uma vida melhor. Uma delas, Ginger, sonha com a liberdade e
+                        planeja sair voando dali junto com suas companheiras. </i></p>
+                <div class="card-footer text-muted">
+                    <button type="button" class="btn btn-danger" onclick="FG()">Trailer</button>
+                    <button type="button" title="A fuga das Galinhas" class="btn btn-outline-danger " data-toggle="popover"
+                        data-trigger="hover" data-placement="auto" data-content="Data de lançamento: 22 de dezembro de 2000 (Brasil) - Direção: Nick Park, Peter Lord - Bilheteria: 225 milhões USD - Música composta por:  ‎John Powell‎; ‎Harry Gregson-Williams - Produção: Nick Park, Peter Lord, David Sproxton
+                            ">Mais informações </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 40%;">
+            <img src="img/nemo.jpg" class="card-img-top" alt="Procurando o Nemo" style="width: 90%;">
+            <div class="card-body">
+                <h3 class="card-title">Procurando Nemo </h3>
+                <div class="card-header">
+                    <h5>Sinopse:</h5>
+                </div>
+                <p class="card-text"><i> Em seu primeiro dia de aula, esquecendo os conselhos do pai superprotetor, Nemo
+                        é capturado por um mergulhador e acaba no aquário de um dentista. Enquanto Nemo tenta bolar um
+                        plano para escapar, seu pai cruza o oceano para resgatá-lo.</i></p>
+                <div class="card-footer text-muted">
+                    <button type="button" class="btn btn-danger" onclick="PNemo()">Trailer</button>
+                    <button type="button" title="Procurando o Nemo" class="btn btn-outline-danger " data-toggle="popover"
+                    data-trigger="hover" data-placement="auto" data-content="Data de lançamento: 4 de julho de 2003 (Brasil) - Direção: Andrew Stanton - Bilheteria: 940,3 milhões USD - Música composta por:  ‎Thomas Newman - Produção: Graham Walters
+                        ">Mais informações </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-deck">
+        <div class="card" style="width: 40%;">
+            <img src="img/Scoobydoo.jpg" class="card-img-top" alt="Scooby Doo" style="width: 90%;">
+            <div class="card-body">
+                <h3 class="card-title">Scooby Doo e o rei dos duendes </h3>
+                <div class="card-header">
+                    <h5>Sinopse:</h5>
+                </div>
+                <p class="card-text" align="justify"><i> Scooby, Salsicha e a turma visitam uma estranha trupe no Dia
+                        das Bruxas, mas nada é o que parece quando o rei dos duendes dá as caras.</i></p>
+                <div class="card-footer text-muted">
+                    <button type="button" class="btn btn-danger" onclick="Scoobdoo()">Trailer</button>
+                    <button type="button" title='Scooby Doo e o rei dos duendes' class="btn btn-outline-danger " data-toggle="popover"
+                    data-trigger="hover" data-placement="auto" data-content="Data de lançamento:  23 de setembro de 2008 (mundial) - Direção: Joe Sichta - Música composta por:  Thomas Chase - Produção: Joe Sichta; Vera Morales
+                        ">Mais informações </a>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 40%;">
+            <img src="img/toystory.jpg" class="card-img-top" alt="Toy Story" style="width: 90%;">
+            <div class="card-body">
+                <h3 class="card-title">Toy Story</h3>
+                <div class="card-header">
+                    <h5>Sinopse:</h5>
+                </div>
+                <p class="card-text" align="justify"><i> Woody é um boneco cowboy de bom coração que pertence a um jovem
+                        chamado Andy. Porém vê sua posição como o brinquedo favorito de Andy comprometida quando seus
+                        pais lhe compram um outro brinquedo, o Buzz Lightyear, uma figura de ação. Ainda pior, Buzz é
+                        arrogante e acha que ele é um astronauta de verdade em uma missão para retornar ao seu planeta
+                        natal.</i></p>
+                <div class="card-footer text-muted">
+                    <button type="button" class="btn btn-danger" onclick="ToyStory()">Trailer</button>
+                    <button type="button" title='Toy Story' class="btn btn-outline-danger " data-toggle="popover"
+                    data-trigger="hover" data-placement="auto" data-content="Data de lançamento:   22 de dezembro de 1995 (Brasil) - Direção: John Lasseter - Bilheteria: 373,6 milhões USD - Música composta por:   Randy Newman - Produção:  ‎Ralph Guggenheim; Bonnie Arnold
+                        ">Mais informações </a>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 40%;">
+            <img src="img/souleater.jpg" class="card-img-top" alt="Soul Eater" style="width: 90%;">
+            <div class="card-body">
+                <h3 class="card-title">Soul Eater</h3>
+                <div class="card-header">
+                    <h5>Sinopse:</h5>
+                </div>
+                <p class="card-text"><i> O anime conta a história de uma escola fictícia chamada Shibusen, localizada no
+                        estado americano de Nevada, criada para eliminar os Ovos de Kishins, que são seres que usam a
+                        alma de humanos (em geral devorando-as) para se tornarem mais poderosos, e as bruxas que vivem
+                        aterrorizando o mundo.</i></p>
+                <div class="card-footer text-muted">
+                    <button type="button" class="btn btn-danger" onclick="SoulEater()">Trailer</button>
+                    <button type="button" title='Soul Eater' class="btn btn-outline-danger " data-toggle="popover"
+                    data-trigger="hover" data-placement="auto" data-content="Direção:	Takuya Igarashi - Produção:	Aya Yoshino; Taihei Yamanishi; Yoshihiro Oyabu - Roteiro:	Akatsuki Yamatoya - Música:	Taku Iwasaki - Estúdio:	Bones Emissoras de televisão:	TXN (TV Tokyo), AT-X - Exibição original:	7 de abril de 2008 a  30 de março de 2009 - Episódios:	51  ">Mais informações </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+.cabecalho{
+    background-color: rgb(214, 61, 22);
+    text-align: center;
+    height: 90px;
+}
+.titulo{
+    padding-top: 20px;
+    font-size: 50px;
+    
+}
+
+img {
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-top: 3%;
+    margin-left: 5%;  
+    border-style: solid;
+  border-color: rgb(80, 80, 80);  
+}
+.informacao{
+    font-size: 24px;
+    padding-left: 35%;
+    padding-top: 3%;
+}
+body{background-color: 
+    rgba(158, 158, 158, 0.856); 
+    
+}
+.card{
+    background-color: rgb(224, 224, 224);
+     border-style: solid;
+  border-color: rgb(80, 80, 80);
+}
+h3{
+   color: rgb(255, 51, 0);
+}
+.card-text{
+    text-align:justify;
+}
+.card-deck{
+    margin-top: 4%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
